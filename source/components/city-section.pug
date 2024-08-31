@@ -1,0 +1,36 @@
+section.city-section
+  .wrapper
+    .city-section__container
+      h2.city-section__title.font-w-bold.font-s-52
+        | Станьте партнером 
+        br.no-br
+        | франшизы «VolgaArt»
+      .city-section__sub-title.font-s-24
+        | и зарабатывайте 
+        br.no-br
+        span.font-w-bold от 2,4 млн чистой прибыли в год
+      .city-section__text.font-s-20
+        | Получите договор, в котором описаны наши обязанности 
+        br.no-br
+        | и условия работы с франчайзи
+      form.city-section__form(data-feedback-form)
+        input.input.input--tertiary.city-item(type="text" name="city" autocomplete="off" placeholder="Город")
+        input.input.input--tertiary.city-item(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+        input.input.input--tertiary.city-item(type="text" name="email" autocomplete="off" placeholder="E-mail")
+        button.btn.city-item(type="submit") Проверить
+      include ../components/footer.pug
+      img.city-section__mark-line(src="images/mark-line-city.svg" loading="lazy" width="534" height="96" alt="icon")
+
+      .city-section__top
+        .font-w-bold.font-s-42
+          | Хотите узнать все детали 
+          br.no-br
+          | сотрудничества?
+        .city-section__top-sub-title.font-s-20
+          | Получите договор, в котором описаны наши обязанности 
+          br.no-br
+          | и условия работы с франчайзи
+        form.city-section__top-form(data-feedback-form)
+          input.input.input--secondary.city-item-2(type="text" name="name" autocomplete="off" placeholder="Имя")
+          input.input.input--secondary.city-item-2(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+          button.btn.city-item-2(type="submit") Получить

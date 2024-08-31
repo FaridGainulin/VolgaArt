@@ -1,0 +1,120 @@
+.finances-section
+  // background-image: url('../images/finances-section-bg.jpg')
+  // background-repeat: no-repeat
+  // background-position: center
+  // background-size: cover
+  background-color #fff
+
+  &__container
+    position relative
+    text-align: center
+    padding 20px 0 1px 0
+    +above($breakpoints.sm)
+      padding 50px 0 50px 0
+    +above($breakpoints.md)
+      padding 80px 0 80px 0
+    +above($breakpoints.xxl)
+      padding 100px 0 102px 0
+
+  &__sub-title
+    padding 15px 0 20px 0
+    +above($breakpoints.sm)
+      padding 25px 0 30px 0
+    +above($breakpoints.md)
+      padding 25px 0 40px 0
+    +above($breakpoints.xxl)
+      padding 30px 0 50px 0
+
+  &__cards
+    +above($breakpoints.sm)
+      display: flex
+      flex-direction: row
+      flex-wrap: wrap
+      justify-content center
+      gap: 10px
+    +above($breakpoints.md)
+      gap: 20px
+
+  &__card
+    width 280px !important
+    border-radius: 20px
+    color: #fff
+    +above($breakpoints.sm)
+      width 235px !important
+      height: 160.78px
+    +above($breakpoints.md)
+      height: 210.73px
+      width 308px !important
+    +above($breakpoints.xxl)
+      height: 260px
+      width 380px !important
+
+  &__card-title
+    padding 10px 0 10px 0
+    +above($breakpoints.md)
+      padding 16px 0 20px 0
+
+  &__card-icon
+    width 30px
+    height: 30px
+    margin 0 auto
+    +above($breakpoints.sm)
+      width 46px
+      height: 46px
+
+  &__card-img
+    border-radius: 20px
+    width 100%
+    height: auto
+
+  &__mark-line
+    position: absolute
+    width: 255px;
+    height: 35px;
+    left: 24px;
+    top: 40px;
+    +above($breakpoints.sm)
+      width: 322px;
+      height: 44px;
+      left: 201px;
+      top: 74px;
+    +above($breakpoints.md)
+      width: 400px;
+      height: 56px;
+      left: 277px;
+      top: 110px;
+    +above($breakpoints.xxl)
+      width: 683px;
+      height: 96px;
+      left: 234px;
+      top: 150px;
+
+.finances-card-red
+  background-color #E30500
+  padding 35px 0 54px
+  +above($breakpoints.sm)
+    padding 15px 0 17px
+  +above($breakpoints.md)
+    padding 17px 0 27px
+  +above($breakpoints.xxl)
+    padding 35px 0 44px
+
+.finances-card-blue
+  background-color #110457
+  padding 35px 0 54px
+  +above($breakpoints.sm)
+    padding 15px 0 17px
+  +above($breakpoints.md)
+    padding 17px 0 27px
+  +above($breakpoints.xxl)
+    padding 35px 0 44px
+
+.finances-card-sky-blue
+  background-color #9CC4F3
+  padding 35px 0 54px
+  +above($breakpoints.sm)
+    padding 15px 0 17px
+  +above($breakpoints.md)
+    padding 17px 0 27px
+  +above($breakpoints.xxl)
+    padding 35px 0 44px

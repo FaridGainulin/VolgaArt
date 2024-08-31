@@ -1,0 +1,30 @@
+section.main-section
+  .wrapper
+    .main-section__container
+      include ../components/header.pug
+      h1.main-section__title.font-w-bold.font-s-52.text-up
+        | Откройте 
+        br.no-br
+        | художественную 
+        br.no-br
+        | студию
+      .main-section__sub-title.font-s-32
+        | и зарабатывайте 
+        br.no-br
+        span.font-w-bold.main-sub-title-padding от 203 000 рублей 
+        br.no-br
+        | ежемесячно
+      .main-section__bottom
+        .font-s-20
+          | Запустите работу бизнеса 
+          br.no-br
+          | по франшизе «VolgaArt» 
+          br.no-br
+          span.font-w-bold.color-red всего за 1,5 месяца
+        form.main-section__form(data-feedback-form)
+          input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+          input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+          button.btn(type="submit") Получить <br> план открытия
+      img.main-section__img(src="images/main-section-img.png" loading="lazy" width="1522" height="1660" alt="image")
+      .main-section__img-shadow
+      img.main-section__mark-line(src="images/mark-line.svg" loading="lazy" width="310" height="54" alt="icon")

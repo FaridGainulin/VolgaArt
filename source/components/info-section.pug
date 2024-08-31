@@ -1,0 +1,19 @@
+section.info-section
+  .wrapper
+    .info-section__container
+      h2.info-section__title.font-w-bold.font-s-42
+        | Хотите узнать, какими будут 
+        br.no-br
+        | подробные расчеты для вашего 
+        br.no-br
+        | города и под ваш бюджет?
+      .info-section__sub-title.font-s-20
+        | Получите финансовую 
+        br.no-br
+        | модель франшизы
+      form.info-section__form(data-feedback-form)
+        input.input.info-item(type="text" name="name" autocomplete="off" placeholder="Имя")
+        input.input.info-item(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+        input.input.info-item(type="text" name="email" autocomplete="off" placeholder="E-mail")
+        button.btn.info-item(type="submit") Получить
+      img.info-section__img(src="images/info-section-image.png" loading="lazy" width="1040" height="980" alt="image")
